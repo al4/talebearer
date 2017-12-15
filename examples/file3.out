@@ -1,0 +1,6 @@
+This is just a generic configuration file that has
+some value1 secrets in random places
+
+No structure required value1
+
+Incomplete secrets such as {{ secret/invalid!invalid } should not be resolved

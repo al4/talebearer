@@ -1,0 +1,4 @@
+public=blah
+secret={{ secret/example!key }}
+secret-two={{ secret/example!key }}
+baz=boz

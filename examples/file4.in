@@ -1,0 +1,3 @@
+{{ secret/example!key }}
+{{ secret/example!key }}
+{{ secret/invalid!invalid }}

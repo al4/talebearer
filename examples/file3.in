@@ -1,0 +1,6 @@
+This is just a generic configuration file that has
+some {{ secret/example!key }} secrets in random places
+
+No structure required {{ secret/example!key }}
+
+Incomplete secrets such as {{ secret/invalid!invalid } should not be resolved

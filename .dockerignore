@@ -1,0 +1,9 @@
+.git/
+.gitignore
+.idea/
+Dockerfile
+Makefile
+README.md
+talebearer
+vendor/
+
