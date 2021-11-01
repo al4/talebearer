@@ -1,5 +1,5 @@
 # Build stage
-FROM golang:1.11.5-alpine3.8 as builder
+FROM golang:1.17-alpine as builder
 
 ENV CGO_ENABLED 0
 
@@ -24,7 +24,7 @@ RUN go test -v ./...
 RUN gometalinter --deadline=240s --enable-gc --tests --aggregate --disable=gotype -e '^\.\./\.\.' --sort=path ./... || true
 
 # Production image stage
-FROM alpine:3.8
+FROM alpine:3.12
 
 RUN apk --no-cache --update upgrade \
     && apk --no-cache add ca-certificates
