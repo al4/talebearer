@@ -4,6 +4,10 @@ _noun_
 
 A person who spreads scandal or tells secrets; gossip
 
+Note
+====
+This code is not being actively developed, and has not seen substantial change for more than 2 years. It was in use in production for a period of about 2 years, but has since been replaced by another tool (not based on Hashicorp Vault). I am publishing it here as a reference for others.
+
 What this app does
 ------------------
 
