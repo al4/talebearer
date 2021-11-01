@@ -20,7 +20,8 @@ test:
 	docker build --target=builder .
 
 lint:
-	gometalinter --deadline=240s --enable-gc --tests --aggregate --disable=gotype --sort=path -e '^\.\./\.\.' ./...
+	golangci-lint run --disable govet ./...
+
 
 docker:
 	docker build -t talebearer:$(BUILD_NUMBER) .
